@@ -1,0 +1,7 @@
+WScript.Echo(Split("a b")(0))
+WScript.Echo(Split("a ")(0))
+WScript.Echo(Split("a")(0))
+WScript.Echo(Split(" ")(0))
+WScript.Echo(Split(" a b")(0))
+WScript.Echo(Split("")(0))
+WScript.Echo(Split("", " ", 1)(0))

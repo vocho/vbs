@@ -1,0 +1,1 @@
+Eval("WScript.Echo(CreateObject(""WScript.Shell"")." & CreateObject("Scripting.FileSystemObject").GetBaseName(Unescape(WScript.ScriptName)) & ")")
